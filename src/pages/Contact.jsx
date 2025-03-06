@@ -1,7 +1,4 @@
 
-jsx
-Copy
-Edit
 import { useState } from 'react';
 
 const Contact = () => {
