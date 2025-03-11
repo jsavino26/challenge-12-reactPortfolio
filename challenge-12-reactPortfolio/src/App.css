@@ -161,7 +161,43 @@ footer a {
 }
 
 .portfolio-section a:hover, .resume-section a:hover {
-  color: #d1d1d1; /* Optional: Change link color on hover */
+  color: #d1d1d1;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.project {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.project img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.project h3 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.project a {
+  display: block;
+  margin: 5px 0;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.project a:hover {
+  text-decoration: underline;
 }
 
 /* MOBILE RESPONSIVE */
