@@ -13,9 +13,10 @@ This is a personal portfolio website built with React, JavaScript, HTML, and CSS
   - [Questions](#questions)
 
 ## Screenshots
-![Portfolio Screenshot 1](Assets/portfolio_screenshot1.jpg)
-
-![Portfolio Screenshot 2](Assets/portfolio_screenshot2.jpg)
+<img src="challenge-12-reactPortfolio/src/assets/screenshot1.jpg" alt="About Me Section" width="75%">
+<img src="challenge-12-reactPortfolio/src/assets/screenshot2.jpg" alt="Portfolio Section" width="75%">
+<img src="challenge-12-reactPortfolio/src/assets/screenshot3.jpg" alt="Contact Section" width="75%">
+<img src="challenge-12-reactPortfolio/src/assets/screenshot4.jpg" alt="Resume Section" width="75%">
 
 ## Installation
 To get started with this project, clone the repository and install the dependencies:
