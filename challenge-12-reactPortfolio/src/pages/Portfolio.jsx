@@ -1,5 +1,5 @@
 import React from 'react';
-import Project from '../components/Project';
+import Project from '../components/Project.jsx';
 
 const projects = [
   {
@@ -14,7 +14,7 @@ const projects = [
     deployedLink: 'https://example.com/project2',
     repoLink: 'https://github.com/username/project2'
   },
-  // Add more projects as needed
+
 ];
 
 function Portfolio() {
