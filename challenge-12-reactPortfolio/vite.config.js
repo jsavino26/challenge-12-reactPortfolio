@@ -1,5 +1,5 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
@@ -9,5 +9,8 @@ export default defineConfig({
   },
   build: {
     outDir: 'dist', // Make sure the build outputs to the 'dist' directory
-  }
+  },
+  resolve: {
+    extensions: ['.js', '.jsx'], // Add this line to handle .jsx files
+  },
 });
