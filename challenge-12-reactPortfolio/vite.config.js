@@ -8,9 +8,9 @@ export default defineConfig({
     open: true
   },
   build: {
-    outDir: 'dist', // Make sure the build outputs to the 'dist' directory
+    outDir: 'dist', 
   },
   resolve: {
-    extensions: ['.js', '.jsx'], // Add this line to handle .jsx files
+    extensions: ['.js', '.jsx'], 
   },
 });
